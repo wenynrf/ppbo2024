@@ -1,6 +1,5 @@
 <?php
 
-
 function luasLingkaran($jari) : float {
     $luas = 3.14*$jari*$jari;
     return $luas;
