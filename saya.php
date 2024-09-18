@@ -1,3 +1,3 @@
 <?php
 
-$wenysukamakanstrawberryyy;
+ketiga.php
