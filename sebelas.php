@@ -1,11 +1,9 @@
 <?php
 
-require_once 'Pegawai.php';
-require_once 'Dosen.php';
+require_once 'vendor/autoload.php';
 
 use App\Admin\Dosen;
 
-// Membuat objek $dian sebagai instance dari class Dosen
 $dian = new Dosen(
     198411132015041001,  
     "Dian Prawira",      
@@ -13,7 +11,6 @@ $dian = new Dosen(
     "Jln Purnama",       
     "0013118405"         
 );
-
 
 $dian->mengajar();
 ?>
