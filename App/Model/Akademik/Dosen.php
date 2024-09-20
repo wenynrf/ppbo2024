@@ -1,6 +1,8 @@
 <?php
 namespace App\Model\Akademik;
 
+use App\Model\Akademik\Pegawai;
+
 class Dosen extends Pegawai {
     public string $nidn;
 
