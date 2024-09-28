@@ -12,5 +12,7 @@ $dian = new Dosen(
     "0013118405"         
 );
 
+$dian->nidn = 1000121184001;
 $dian->mengajar();
+echo $dian->getNoHp();
 ?>
